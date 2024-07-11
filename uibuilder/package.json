@@ -14,13 +14,15 @@
   "uibuilder": {
     "packages": {
       "three": {
-        "installFolder": "uibuilder\\node_modules\\three",
+        "spec": "^0.166.1",
+        "installFolder": "C:\\repo\\UiBuilder\\testUibuilder\\uibuilder\\node_modules\\three",
         "installedVersion": "0.166.1",
-        "estimatedEntryPoint": "./build/three.cjs",
-        "homepage": "https://threejs.org/",
+        "estimatedEntryPoint": "?",
+        "homepage": "https://www.npmjs.com/search?q=three",
         "packageUrl": "/three",
-        "url": "../uibuilder/vendor/three/./build/three.cjs",
-        "spec": "^0.166.1"
+        "url": "../uibuilder/vendor/three/?",
+        "installedFrom": "npm",
+        "outdated": {}
       }
     }
   }

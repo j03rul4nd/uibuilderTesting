@@ -1,10 +1,21 @@
 {
     "node-red": {
         "name": "node-red",
-        "version": "2.2.3",
+        "version": "3.1.11",
         "local": false,
         "user": false,
         "nodes": {
+            "junction": {
+                "name": "junction",
+                "types": [
+                    "junction"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\repo\\UiBuilder\\testUibuilder\\node_modules\\@node-red\\nodes\\core\\common\\05-junction.js"
+            },
             "inject": {
                 "name": "inject",
                 "types": [
@@ -83,6 +94,17 @@
                 "user": false,
                 "module": "node-red",
                 "file": "C:\\repo\\UiBuilder\\testUibuilder\\node_modules\\@node-red\\nodes\\core\\common\\90-comment.js"
+            },
+            "global-config": {
+                "name": "global-config",
+                "types": [
+                    "global-config"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\repo\\UiBuilder\\testUibuilder\\node_modules\\@node-red\\nodes\\core\\common\\91-global-config.js"
             },
             "unknown": {
                 "name": "unknown",
@@ -641,6 +663,113 @@
                 "user": false,
                 "module": "node-red-dashboard",
                 "file": "C:\\repo\\UiBuilder\\testUibuilder\\node_modules\\node-red-dashboard\\nodes\\ui_spacer.js"
+            }
+        }
+    },
+    "node-red-contrib-uibuilder": {
+        "name": "node-red-contrib-uibuilder",
+        "version": "6.8.2",
+        "local": false,
+        "user": false,
+        "nodes": {
+            "uibuilder": {
+                "name": "uibuilder",
+                "types": [
+                    "uibuilder"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red-contrib-uibuilder",
+                "file": "C:\\repo\\UiBuilder\\testUibuilder\\node_modules\\node-red-contrib-uibuilder\\nodes\\uibuilder.js"
+            },
+            "uib-cache": {
+                "name": "uib-cache",
+                "types": [
+                    "uib-cache"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red-contrib-uibuilder",
+                "file": "C:\\repo\\UiBuilder\\testUibuilder\\node_modules\\node-red-contrib-uibuilder\\nodes\\uib-cache.js"
+            },
+            "uib-tag": {
+                "name": "uib-tag",
+                "types": [
+                    "uib-tag"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red-contrib-uibuilder",
+                "file": "C:\\repo\\UiBuilder\\testUibuilder\\node_modules\\node-red-contrib-uibuilder\\nodes\\uib-tag\\customNode.js"
+            },
+            "uib-element": {
+                "name": "uib-element",
+                "types": [
+                    "uib-element"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red-contrib-uibuilder",
+                "file": "C:\\repo\\UiBuilder\\testUibuilder\\node_modules\\node-red-contrib-uibuilder\\nodes\\uib-element\\customNode.js"
+            },
+            "uib-update": {
+                "name": "uib-update",
+                "types": [
+                    "uib-update"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red-contrib-uibuilder",
+                "file": "C:\\repo\\UiBuilder\\testUibuilder\\node_modules\\node-red-contrib-uibuilder\\nodes\\uib-update\\customNode.js"
+            },
+            "uib-html": {
+                "name": "uib-html",
+                "types": [
+                    "uib-html"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red-contrib-uibuilder",
+                "file": "C:\\repo\\UiBuilder\\testUibuilder\\node_modules\\node-red-contrib-uibuilder\\nodes\\uib-html\\customNode.js"
+            },
+            "uib-save": {
+                "name": "uib-save",
+                "types": [
+                    "uib-save"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red-contrib-uibuilder",
+                "file": "C:\\repo\\UiBuilder\\testUibuilder\\node_modules\\node-red-contrib-uibuilder\\nodes\\uib-save\\customNode.js"
+            },
+            "uib-sender": {
+                "name": "uib-sender",
+                "types": [
+                    "uib-sender"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red-contrib-uibuilder",
+                "file": "C:\\repo\\UiBuilder\\testUibuilder\\node_modules\\node-red-contrib-uibuilder\\nodes\\uib-sender.js"
+            },
+            "uib-list": {
+                "name": "uib-list",
+                "types": [
+                    "uib-list"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red-contrib-uibuilder",
+                "file": "C:\\repo\\UiBuilder\\testUibuilder\\node_modules\\node-red-contrib-uibuilder\\nodes\\uib-list\\customNode.js"
             }
         }
     }
