@@ -1,0 +1,21 @@
+{
+  "name": "testuibuilder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.17.1",
+    "node-red": "^3.0.0",
+    "node-red-contrib-uibuilder": "^6.8.2",
+    "node-red-dashboard": "^3.6.5"
+  }
+}

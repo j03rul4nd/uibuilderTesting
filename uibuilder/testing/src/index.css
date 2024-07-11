@@ -1,0 +1,23 @@
+/* Load defaults from `<userDir>/node_modules/node-red-contrib-uibuilder/front-end/uib-brand.min.css`
+ * This version auto-adjusts for light/dark browser settings but might not be as complete.
+ */
+ @import url("../uibuilder/uib-brand.min.css");
+
+ /* OR, load the defaults from the older `<userDir>/node_modules/node-red-contrib-uibuilder/front-end/uib-styles.css` */
+ /* @import url("../uibuilder/uib-styles.css"); */
+ 
+ body {
+     margin: 0;
+     overflow: hidden;
+ }
+ 
+ #container {
+     width: 100vw;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #000;
+ }
+ 
+ 
